@@ -21,7 +21,6 @@
 	background-repeat: no-repeat;
 	background-size:cover;
 }
-
 .parallax2{
 
 	background-image: url("p12.jpg");
@@ -68,11 +67,7 @@
 	font-size: 17px;
 	text-shadow: 2px 2px 4px #000000;
 	padding-top: 100px;
-
-
-
 }
-
 button{
 
 	border:1px solid;
@@ -85,14 +80,23 @@ button{
 	box-shadow: 1px 1px 1px white;
 	text-shadow: 2px 2px 4px black;
 }
+.nav {
+  position: fixed;
+  padding-top:20%;
+  margin-left:30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 
 </style>
 <body>
 <div class = "parallax1">
 <div class = "welcome">
 	<center><h1>...Welcome To My Portfolio Website...</h1></center>
+	<div class= "nav">
 	<center>
-	<div id = "nav">
 	<p>
 	<a href = "home.html"><button>
 	<i class="fa fa-home" style="font-size:50px;color:white"></i>
@@ -130,7 +134,7 @@ button{
 <div class = "parallax1"></div>
 <div class = "portfolio" id="portfolio">
 <center><u><h2>My Portfolio</h2></u></center>
-	
+
 </div>
 <div class="parallax2"></div>
 <div class = "resume" id="resume">
@@ -144,11 +148,10 @@ button{
 
 	
 </div>
-<div class = "parallax2">
-	
-</div>
+<div class = "parallax2"></div>
 <div class = "footer">
 	<center><p>Copyright © 2018 Anchal Gupta</p></center>
 </div>
+
 </body>
 </html>
